@@ -21,9 +21,9 @@ namespace WindowsFormsApplication1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Class1 c1 = new Class1();
+            Class1 ca = new Class1();
             Class2 c2 = new Class2();
-            int n = c1.GetNumber();
+            int n = ca.GetNumber();
             label1.Text = n.ToString();
             for (int i = 0; i <= n; ++i)
             {
