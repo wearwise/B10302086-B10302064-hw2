@@ -4,9 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace WindowsFormsApplication1
 {
+
     class Class1
     {
+        public int GetNumber()
+        {
+            Random rnd = new Random();
+            int i;
+            i = rnd.Next(1, 100);
+            return i;
+
+        }
     }
 }
